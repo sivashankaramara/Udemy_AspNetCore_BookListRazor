@@ -62,3 +62,4 @@ F:\Projects\Asp.Net_Core\Udemy_AspNetCore_BookListRazor\BookListRazor\BookListRa
 F:\Projects\Asp.Net_Core\Udemy_AspNetCore_BookListRazor\BookListRazor\BookListRazor\obj\Debug\netcoreapp2.2\BookListRazor.dll
 F:\Projects\Asp.Net_Core\Udemy_AspNetCore_BookListRazor\BookListRazor\BookListRazor\obj\Debug\netcoreapp2.2\BookListRazor.pdb
 F:\Projects\Asp.Net_Core\Udemy_AspNetCore_BookListRazor\BookListRazor\BookListRazor\obj\Debug\netcoreapp2.2\BookListRazor.csproj.CopyComplete
+F:\Projects\Asp.Net_Core\Udemy_AspNetCore_BookListRazor\BookListRazor\BookListRazor\obj\Debug\netcoreapp2.2\Razor\Pages\BookList\Edit.g.cshtml.cs
