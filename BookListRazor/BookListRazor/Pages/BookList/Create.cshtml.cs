@@ -11,6 +11,8 @@ namespace BookListRazor.Pages.BookList
     public class CreateModel : PageModel
     {
         private readonly ApplicationDbContext _db;
+        [TempData]
+        public string Message { get; set; }
         public CreateModel(ApplicationDbContext dbContext)
         {
             _db = dbContext;
@@ -29,7 +31,8 @@ namespace BookListRazor.Pages.BookList
             }
             _db.Book.Add(Book);
             await _db.SaveChangesAsync();
-            return RedirectToAction("Index");
+            Message = "Book has been created successfully.";
+            return RedirectToPage("Index");
         }
     }
 }

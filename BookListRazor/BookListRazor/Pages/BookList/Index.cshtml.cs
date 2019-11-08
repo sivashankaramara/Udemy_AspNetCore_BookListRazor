@@ -12,6 +12,8 @@ namespace BookListRazor.Pages.BookList
     public class IndexModel : PageModel
     {
         private readonly ApplicationDbContext _db;
+        [TempData]
+        public string Message { get; set; }
         public IndexModel(ApplicationDbContext db)
         {
             _db = db;
@@ -31,6 +33,7 @@ namespace BookListRazor.Pages.BookList
             }
             _db.Remove(bookFromDb);
             await _db.SaveChangesAsync();
+            Message = $"Book: {Id} deleted successfully";
             return RedirectToPage();
         }
     }
